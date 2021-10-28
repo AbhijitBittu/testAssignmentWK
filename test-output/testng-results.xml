@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="6" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-28T18:49:16 IST" name="Default suite" finished-at="2021-10-28T18:50:10 IST" duration-ms="53702">
+    <groups>
+      <group name="Negative">
+        <method signature="ToDoListTest.saveEmptyTask()[pri:7, instance:com.test.ToDoListTest@38cee291]" name="saveEmptyTask" class="com.test.ToDoListTest"/>
+        <method signature="ToDoListTest.seacrhBoxEmpty()[pri:6, instance:com.test.ToDoListTest@38cee291]" name="seacrhBoxEmpty" class="com.test.ToDoListTest"/>
+        <method signature="ToDoListTest.taksRetained()[pri:5, instance:com.test.ToDoListTest@38cee291]" name="taksRetained" class="com.test.ToDoListTest"/>
+      </group> <!-- Negative -->
+      <group name="Positive">
+        <method signature="ToDoListTest.checkTitle()[pri:1, instance:com.test.ToDoListTest@38cee291]" name="checkTitle" class="com.test.ToDoListTest"/>
+        <method signature="ToDoListTest.makeTaskComplete()[pri:4, instance:com.test.ToDoListTest@38cee291]" name="makeTaskComplete" class="com.test.ToDoListTest"/>
+        <method signature="ToDoListTest.storeMultipleTask()[pri:3, instance:com.test.ToDoListTest@38cee291]" name="storeMultipleTask" class="com.test.ToDoListTest"/>
+        <method signature="ToDoListTest.storeToDoTask()[pri:2, instance:com.test.ToDoListTest@38cee291]" name="storeToDoTask" class="com.test.ToDoListTest"/>
+      </group> <!-- Positive -->
+    </groups>
+    <test started-at="2021-10-28T18:49:16 IST" name="Default test" finished-at="2021-10-28T18:50:10 IST" duration-ms="53702">
+      <class name="com.test.ToDoListTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.ToDoListTest@38cee291]" started-at="2021-10-28T18:49:16 IST" name="setUp" finished-at="2021-10-28T18:49:22 IST" duration-ms="5921" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="checkTitle()[pri:1, instance:com.test.ToDoListTest@38cee291]" started-at="2021-10-28T18:49:22 IST" name="checkTitle" finished-at="2021-10-28T18:49:22 IST" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.ToDoListTest@38cee291]" started-at="2021-10-28T18:49:22 IST" name="tearDown" finished-at="2021-10-28T18:49:22 IST" duration-ms="288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.ToDoListTest@38cee291]" started-at="2021-10-28T18:49:22 IST" name="setUp" finished-at="2021-10-28T18:49:27 IST" duration-ms="4328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="storeToDoTask()[pri:2, instance:com.test.ToDoListTest@38cee291]" started-at="2021-10-28T18:49:27 IST" name="storeToDoTask" finished-at="2021-10-28T18:49:29 IST" duration-ms="2626" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- storeToDoTask -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.ToDoListTest@38cee291]" started-at="2021-10-28T18:49:29 IST" name="tearDown" finished-at="2021-10-28T18:49:29 IST" duration-ms="224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.ToDoListTest@38cee291]" started-at="2021-10-28T18:49:29 IST" name="setUp" finished-at="2021-10-28T18:49:34 IST" duration-ms="4278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="storeMultipleTask()[pri:3, instance:com.test.ToDoListTest@38cee291]" started-at="2021-10-28T18:49:34 IST" name="storeMultipleTask" finished-at="2021-10-28T18:49:38 IST" duration-ms="4524" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- storeMultipleTask -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.ToDoListTest@38cee291]" started-at="2021-10-28T18:49:38 IST" name="tearDown" finished-at="2021-10-28T18:49:38 IST" duration-ms="219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.ToDoListTest@38cee291]" started-at="2021-10-28T18:49:38 IST" name="setUp" finished-at="2021-10-28T18:49:42 IST" duration-ms="4092" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="makeTaskComplete()[pri:4, instance:com.test.ToDoListTest@38cee291]" started-at="2021-10-28T18:49:42 IST" name="makeTaskComplete" finished-at="2021-10-28T18:49:47 IST" duration-ms="4532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- makeTaskComplete -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.ToDoListTest@38cee291]" started-at="2021-10-28T18:49:47 IST" name="tearDown" finished-at="2021-10-28T18:49:47 IST" duration-ms="219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.ToDoListTest@38cee291]" started-at="2021-10-28T18:49:47 IST" name="setUp" finished-at="2021-10-28T18:49:52 IST" duration-ms="4378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="taksRetained()[pri:5, instance:com.test.ToDoListTest@38cee291]" started-at="2021-10-28T18:49:52 IST" name="taksRetained" finished-at="2021-10-28T18:49:53 IST" duration-ms="1236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- taksRetained -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.ToDoListTest@38cee291]" started-at="2021-10-28T18:49:53 IST" name="tearDown" finished-at="2021-10-28T18:49:53 IST" duration-ms="247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.ToDoListTest@38cee291]" started-at="2021-10-28T18:49:53 IST" name="setUp" finished-at="2021-10-28T18:49:57 IST" duration-ms="4165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="seacrhBoxEmpty()[pri:6, instance:com.test.ToDoListTest@38cee291]" started-at="2021-10-28T18:49:57 IST" name="seacrhBoxEmpty" finished-at="2021-10-28T18:50:01 IST" duration-ms="3994" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seacrhBoxEmpty -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.ToDoListTest@38cee291]" started-at="2021-10-28T18:50:01 IST" name="tearDown" finished-at="2021-10-28T18:50:02 IST" duration-ms="299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.ToDoListTest@38cee291]" started-at="2021-10-28T18:50:02 IST" name="setUp" finished-at="2021-10-28T18:50:06 IST" duration-ms="4186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="saveEmptyTask()[pri:7, instance:com.test.ToDoListTest@38cee291]" started-at="2021-10-28T18:50:06 IST" name="saveEmptyTask" finished-at="2021-10-28T18:50:09 IST" duration-ms="3604" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable: [object HTMLLabelElement] has no size and location
+  (Session info: chrome=95.0.4638.54)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.693Z'
+System info: host: 'BITTUS-LAPTOP', ip: '192.168.1.89', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.54, chrome: {chromedriverVersion: 95.0.4638.17 (a9d0719444d4b..., userDataDir: C:\Users\abhij\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60759}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0bd98cfa3a7ecdf8bfcdc4dbe811f248]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable: [object HTMLLabelElement] has no size and location
+  (Session info: chrome=95.0.4638.54)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.693Z'
+System info: host: 'BITTUS-LAPTOP', ip: '192.168.1.89', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.54, chrome: {chromedriverVersion: 95.0.4638.17 (a9d0719444d4b..., userDataDir: C:\Users\abhij\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60759}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0bd98cfa3a7ecdf8bfcdc4dbe811f248
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:614)
+at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:640)
+at com.test.ToDoListTest.saveEmptyTask(ToDoListTest.java:160)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveEmptyTask -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.ToDoListTest@38cee291]" started-at="2021-10-28T18:50:09 IST" name="tearDown" finished-at="2021-10-28T18:50:10 IST" duration-ms="245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.ToDoListTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
